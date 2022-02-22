@@ -38,3 +38,13 @@ p + p {
   margin-top: 1em;
 }
 
+ul {
+  list-style: none;
+}
+
+img, svg {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+
