@@ -2,6 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 20px;
+  color: #424242;
 }
 
 /* Utility */
@@ -25,7 +26,7 @@ body {
 /* Grid */
 
 .container {
-  width: 1400px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
