@@ -16,6 +16,23 @@
 
 .header-nav {
   font-weight: 500;
+  color: #292929;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav li + li {
+  margin-left: 70px;
+}
+
+.header-nav a {
+  transition: color .2s ease;
+}
+
+.header-nav a:hover {
+  color: #01996D;
 }
 
 .header-login {
