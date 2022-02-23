@@ -7,14 +7,10 @@
 .header-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-.header-logo {
-
 }
 
 .header-nav {
+  margin-left: 172px;
   font-weight: 500;
   color: #292929;
 }
@@ -38,6 +34,7 @@
 .header-login {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .header-login > * + * {
