@@ -4,6 +4,7 @@
 }
 
 .how-it-works-header {
+  padding-bottom: 52px;
   display: flex;
   justify-content: space-between;
 }
@@ -36,4 +37,45 @@
 }
 
 .how-it-works-steps {
+}
+
+.step {
+  max-width: 390px;
+}
+
+.step-heading::before {
+  content: attr(data-number);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150%;
+  color: rgba(1, 153, 109, 0.2);
+}
+
+.step-heading {
+  position: relative;
+  padding-top: 135px;
+  padding-left: 88px;
+  margin-bottom: 50px;
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.step-text {
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+
+.step-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
